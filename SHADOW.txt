@@ -1,0 +1,8 @@
+shadow prebuilt repo: libcxx (dual-slice: host + target)
+  upstream: external/libcxx
+  toolchain: clang-r510928 (prebuilts/clang/host/linux-x86/clang-r510928)
+  build-version: r510928
+  api-level: 34 (branch 34-r510928)
+  reference: symlinked to clang-r510928 (target: android_libc++/platform, host: lib, headers: include/c++/v1)
+  modules: libc++, libc++_static, libc++fs, libc++experimental, libc++ defaults, libc_musl_sysroot_libc++_headers
+  date: 2026-10-22
