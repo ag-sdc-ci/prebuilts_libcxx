@@ -262,7 +262,7 @@ genrule {
         "LICENSE.TXT",
         "NOTICE",
         "include/**/*",
-        ":libcxxabi_headers",
+        "dev-src/libcxxabi-include/*.h",
     ],
     out: ["libc_musl_sysroot_libc++_headers.zip"],
     tools: [
